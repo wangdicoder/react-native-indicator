@@ -1,0 +1,25 @@
+{
+  "name": "react-native-indicator",
+  "version": "0.1.0",
+  "description": "React Native Indicator Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangdicoder/react-native-indicator.git"
+  },
+  "keywords": [
+    "react-native",
+    "indicator",
+    "loader",
+    "progress"
+  ],
+  "author": "Di Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangdicoder/react-native-indicator/issues"
+  },
+  "homepage": "https://github.com/wangdicoder/react-native-indicator#readme"
+}
