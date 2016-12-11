@@ -33,7 +33,7 @@ export default class PulseLoader extends Component{
     _renderCircle(i){
         const {color, size, betweenSpace} = this.props;
         return(
-            <AnimatedCircle radius={size} fill={color} x={size + i * (size+betweenSpace)} y={size} scale={this.state.opacities[i]}/>
+            <AnimatedCircle radius={size} fill={color} x={size + i * (size+betweenSpace)} y={size} scale={this.state.scales[i]}/>
         );
     }
 
@@ -49,7 +49,7 @@ export default class PulseLoader extends Component{
     }
 
     componentDidMount(){
-        this.state.opacities.forEach((item, i) => {
+        this.state.scales.forEach((item, i) => {
             const id = setTimeout(()=>{this._animation(i)}, i*250);
             this.timers.push(id);
         });
@@ -64,8 +64,8 @@ export default class PulseLoader extends Component{
 
     _animation(i){
         Animated.sequence([
-            Animated.timing(this.state.opacities[i], {toValue: 0.2, duration: 500}),
-            Animated.timing(this.state.opacities[i], {toValue: 1, duration: 500})
+            Animated.timing(this.state.scales[i], {toValue: 0.2, duration: 500}),
+            Animated.timing(this.state.scales[i], {toValue: 1, duration: 500})
         ]).start(()=>{
             if(!this.unmounted)
                 this._animation(i);

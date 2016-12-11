@@ -35,7 +35,7 @@ export default class MultipleDotsLoader extends Component{
                 new Animated.Value(1)
             ]
         };
-        this.eachDegree = 360/this.state.opacities.length;
+        this.eachDegree = 360/this.state.scales.length;
         this.timers = [];
         this._animation = this._animation.bind(this);
     }
@@ -44,18 +44,18 @@ export default class MultipleDotsLoader extends Component{
         const {size, dotRadius, color} = this.props;
         return(
             <Surface width={size+dotRadius} height={size+dotRadius}>
-                {this.state.opacities.map((item, i)=>{
+                {this.state.scales.map((item, i)=>{
                     let radian = (i*this.eachDegree)*Math.PI/180;
                     let x = Math.round(size/2 * Math.cos(radian))+size/2+dotRadius/2;
                     let y = Math.round(size/2 * Math.sin(radian))+size/2+dotRadius/2;
-                    return <AnimatedCircle key={i} radius={dotRadius} fill={color} x={x} y={y} scale={this.state.opacities[i]}/>
+                    return <AnimatedCircle key={i} radius={dotRadius} fill={color} x={x} y={y} scale={this.state.scales[i]}/>
                 })}
             </Surface>
         );
     }
 
     componentDidMount(){
-        this.state.opacities.forEach((item, i) => {
+        this.state.scales.forEach((item, i) => {
             const id = setTimeout(()=>{this._animation(i)}, i*150);
             this.timers.push(id);
         });
@@ -70,8 +70,8 @@ export default class MultipleDotsLoader extends Component{
 
     _animation(i){
         Animated.sequence([
-            Animated.timing(this.state.opacities[i], {toValue: 0.2, duration: 600}),
-            Animated.timing(this.state.opacities[i], {toValue: 1, duration: 600})
+            Animated.timing(this.state.scales[i], {toValue: 0.2, duration: 600}),
+            Animated.timing(this.state.scales[i], {toValue: 1, duration: 600})
         ]).start(()=>{
             if(!this.unmounted)
                 this._animation(i);

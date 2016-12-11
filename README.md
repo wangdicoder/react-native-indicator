@@ -57,4 +57,13 @@ import {CircleLoader, PulseLoader, TextLoader} from 'react-native-indicator';
 | ---- | ---- | ---- | ---- | ---- |
 | size | number | 40 | no | circle's size |
 | color | string | '#1e90ff' | no | the indicator's color |
-| dotRadius | number | 10| no | each dot's size |
+| dotRadius | number | 10 | no | each dot's size |
+
+
+##### OpacityDotsLoader
+
+| prop | type | default | isRequired | description |
+| ---- | ---- | ---- | ---- | ---- |
+| size | number | 40 | no | circle's size |
+| color | string | '#1e90ff' | no | the indicator's color |
+| dotRadius | number | 8 | no | each dot's size |

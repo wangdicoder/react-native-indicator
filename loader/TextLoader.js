@@ -18,8 +18,7 @@ export default class TextLoader extends Component{
             opacities: [0, 0, 0]
         };
         this._animation = this._animation.bind(this);
-        this.patterns = [[0,0,0],[1,0,0],[1,1,0],[1,1,1]];
-        this.timers = [];
+        this.patterns = [[0,0,0],[1,0,0],[1,1,0],[1,1,1]]
     }
 
     render(){
@@ -40,21 +39,17 @@ export default class TextLoader extends Component{
 
     componentWillUnmount(){
         this.unmounted = true;
-        this.timers.forEach((id)=>{
-            clearTimeout(id);
-        });
     }
 
     _animation(index){
         if(!this.unmounted){
-            const id = setTimeout(()=>{
+            setTimeout(()=>{
                 this.setState({opacities: this.patterns[index]});
                 index++;
                 if(index >= this.patterns.length)
                     index = 0;
                 this._animation(index);
             }, 500);
-            this.timers.push(id);
         }
     }
 }
