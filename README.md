@@ -9,6 +9,14 @@ Make sure that you are in your React Native project directory and run:
 $ npm install react-native-indicator --save 
 ```
 
+### Android
+
+It works, have fun!
+
+### iOS
+
+Add ```ART.xcodeproj``` from ```node_modules/react-native/React/Libraries/ART``` to your Libraries then link ```libART.a```. To see more details about **Linking Libraries**, jump to [this](https://facebook.github.io/react-native/docs/linking-libraries-ios.html).
+
 ## Usage
 
 Import react-native-indicator as a JavaScript module:
