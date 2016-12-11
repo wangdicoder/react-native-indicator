@@ -3,12 +3,18 @@
  */
 'use strict';
 
+import Dots from './lib/loader/DotsLoader';
 import Pulse from './lib/loader/PulseLoader';
-import Circle from './lib/loader/CircleLoader';
 import Text from './lib/loader/TextLoader';
-import MultipleDots from './lib/loader/MultipleDotsLoader';
+import Bubbles from './lib/loader/BubblesLoader';
+import Circles from './lib/loader/CirclesLoader';
+import Ripple from './lib/loader/RippleLoader';
+import Breathing from './lib/loader/BreathingLoader';
 
-export const CircleLoader = Circle;
-export const PulseLoader  = Pulse;
+export const PulseLoader = Pulse;
+export const DotsLoader  = Dots;
 export const TextLoader = Text;
-export const MultipleDotsLoader = MultipleDots;
+export const BubblesLoader = Bubbles;
+export const CirclesLoader = Circles;
+export const RippleLoader = Ripple;
+export const BreathingLoader = Breathing;

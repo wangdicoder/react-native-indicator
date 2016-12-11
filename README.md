@@ -26,7 +26,7 @@ import {CircleLoader, PulseLoader, TextLoader} from 'react-native-indicator';
 
 ## Props
 
-##### CircleLoader
+##### PulseLoader
 
 | prop | type | default | isRequired | description |
 | ---- | ---- | ---- | ---- | ---- |
@@ -34,7 +34,7 @@ import {CircleLoader, PulseLoader, TextLoader} from 'react-native-indicator';
 | color | string | '#1e90ff' | no | the indicator's color |
 
 
-##### PulseLoader
+##### DotsLoader
 
 | prop | type | default | isRequired | description |
 | ---- | ---- | ---- | ---- | ---- |
@@ -51,7 +51,7 @@ import {CircleLoader, PulseLoader, TextLoader} from 'react-native-indicator';
 | textStyle | style | inherited | no | text's style |
 
 
-##### MultipleDotsLoader
+##### BubblesLoader
 
 | prop | type | default | isRequired | description |
 | ---- | ---- | ---- | ---- | ---- |
@@ -60,10 +60,31 @@ import {CircleLoader, PulseLoader, TextLoader} from 'react-native-indicator';
 | dotRadius | number | 10 | no | each dot's size |
 
 
-##### OpacityDotsLoader
+##### CirclesLoader
 
 | prop | type | default | isRequired | description |
 | ---- | ---- | ---- | ---- | ---- |
 | size | number | 40 | no | circle's size |
 | color | string | '#1e90ff' | no | the indicator's color |
 | dotRadius | number | 8 | no | each dot's size |
+
+
+##### BreathingLoader
+
+| prop | type | default | isRequired | description |
+| ---- | ---- | ---- | ---- | ---- |
+| size | number | 10 | no | circle's size |
+| color | string | '#1e90ff' | no | the indicator's color |
+| strokeWidth | number | 3 | no | outline width |
+| frequency | number | 800 | no | scale's frequency |
+
+
+##### RippleLoader
+
+| prop | type | default | isRequired | description |
+| ---- | ---- | ---- | ---- | ---- |
+| size | number | 10 | no | circle's size |
+| color | string | '#1e90ff' | no | the indicator's color |
+| strokeWidth | number | 3 | no | outline width |
+
+
