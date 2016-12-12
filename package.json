@@ -1,6 +1,6 @@
 {
   "name": "react-native-indicator",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "React Native Indicator Component",
   "main": "index.js",
   "scripts": {

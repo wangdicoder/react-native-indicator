@@ -12,6 +12,7 @@ import Ripple from './lib/loader/RippleLoader';
 import Breathing from './lib/loader/BreathingLoader';
 import Lines from './lib/loader/LinesLoader';
 import Music from './lib/loader/MusicLoader';
+import EatBean from './lib/loader/EatBeanLoader';
 
 export const PulseLoader = Pulse;
 export const DotsLoader  = Dots;
@@ -22,3 +23,4 @@ export const RippleLoader = Ripple;
 export const BreathingLoader = Breathing;
 export const LinesLoader = Lines;
 export const MusicBarLoader = Music;
+export const EatBeanLoader = EatBean;

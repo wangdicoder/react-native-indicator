@@ -4,9 +4,6 @@
 
 A useful indicator component for React Native
 
-<img src="/screenshot/ss1.gif" width="372" height="666" />
-<img src="/screenshot/ss2.gif" width="372" height="666" />
-
 ## Installation
 
 Make sure that you are in your React Native project directory and run:
@@ -40,6 +37,7 @@ Here is currently available types:
 - RippleLoader
 - LinesLoader
 - MusicBarLoader
+- EatBeanLoader
 
 ```
 render(){
@@ -135,6 +133,14 @@ render(){
 | barWidth | number | 3 | each bar's width |
 | barHeight | number | 30 | each bar's height |
 | betweenSpace | number | 5 | the distance between two bars |
+
+
+##### EatBeanLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| color | string | '#1e90ff' | the indicator's color |
+| size | number | 30 | the indicator's size |
 
 
 ## License

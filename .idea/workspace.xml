@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bef3875-5f6e-48de-b763-31c535668d9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshot/ss1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshot/ss2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loader/BarLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loader/CircleLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loader/MultipleDotsLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loader/PulseLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/loader/TextLoader.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/loader/BubblesLoader.js" afterPath="$PROJECT_DIR$/lib/loader/BubblesLoader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/loader/DotsLoader.js" afterPath="$PROJECT_DIR$/lib/loader/DotsLoader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/loader/MusicLoader.js" afterPath="$PROJECT_DIR$/lib/loader/MusicLoader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -205,12 +193,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481539716026</updated>
-      <workItem from="1481539717415" duration="233000" />
+      <workItem from="1481539717415" duration="358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233000" />
+    <option name="totallyTimeSpent" value="358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="948" height="778" extended-state="0" />
