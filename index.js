@@ -10,6 +10,8 @@ import Bubbles from './lib/loader/BubblesLoader';
 import Circles from './lib/loader/CirclesLoader';
 import Ripple from './lib/loader/RippleLoader';
 import Breathing from './lib/loader/BreathingLoader';
+import Lines from './lib/loader/LinesLoader';
+import Music from './lib/loader/MusicLoader';
 
 export const PulseLoader = Pulse;
 export const DotsLoader  = Dots;
@@ -18,3 +20,5 @@ export const BubblesLoader = Bubbles;
 export const CirclesLoader = Circles;
 export const RippleLoader = Ripple;
 export const BreathingLoader = Breathing;
+export const LinesLoader = Lines;
+export const MusicBarLoader = Music;
