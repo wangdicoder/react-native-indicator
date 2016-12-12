@@ -4,6 +4,9 @@
 
 A useful indicator component for React Native
 
+<img src="/screenshot/ss1.gif" width="372" height="666" />
+<img src="/screenshot/ss2.gif" width="372" height="666" />
+
 ## Installation
 
 Make sure that you are in your React Native project directory and run:
@@ -53,19 +56,19 @@ render(){
 
 ##### PulseLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| size | number | 10 | no | circle's size |
-| color | string | '#1e90ff' | no | the indicator's color |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 10 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
 
 
 ##### DotsLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| size | number | 10 | no | circle's size |
-| color | string | '#1e90ff' | no | the indicator's color |
-| betweenSpace | number | 5 | no | the distance between two dots |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 10 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| betweenSpace | number | 5 | the distance between two dots |
 
 
 ##### TextLoader
@@ -78,60 +81,60 @@ render(){
 
 ##### BubblesLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| size | number | 40 | no | circle's size |
-| color | string | '#1e90ff' | no | the indicator's color |
-| dotRadius | number | 10 | no | each dot's size |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 40 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| dotRadius | number | 10 | each dot's size |
 
 
 ##### CirclesLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| size | number | 40 | no | circle's size |
-| color | string | '#1e90ff' | no | the indicator's color |
-| dotRadius | number | 8 | no | each dot's size |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 40 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| dotRadius | number | 8 | each dot's size |
 
 
 ##### BreathingLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| size | number | 10 | no | circle's size |
-| color | string | '#1e90ff' | no | the indicator's color |
-| strokeWidth | number | 3 | no | outline width |
-| frequency | number | 800 | no | scale's frequency |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 10 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| strokeWidth | number | 3 | outline width |
+| frequency | number | 800 | scale's frequency |
 
 
 ##### RippleLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| size | number | 10 | no | circle's size |
-| color | string | '#1e90ff' | no | the indicator's color |
-| strokeWidth | number | 3 | no | outline width |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 10 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| strokeWidth | number | 3 | outline width |
 
 
 ##### LinesLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| color | string | '#1e90ff' | no | the indicator's color |
-| barWidth | number | 5 | no | each bar's width |
-| barHeight | number | 40 | no | each bar's height |
-| barNumber | number | 5 | no | the number of bar |
-| betweenSpace | number | 2 | no | the distance between two bars |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| color | string | '#1e90ff' | the indicator's color |
+| barWidth | number | 5 | each bar's width |
+| barHeight | number | 40 | each bar's height |
+| barNumber | number | 5 | the number of bar |
+| betweenSpace | number | 2 | the distance between two bars |
 
 
 ##### MusicBarLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| color | string | '#1e90ff' | no | the indicator's color |
-| barWidth | number | 3 | no | each bar's width |
-| barHeight | number | 30 | no | each bar's height |
-| betweenSpace | number | 5 | no | the distance between two bars |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| color | string | '#1e90ff' | the indicator's color |
+| barWidth | number | 3 | each bar's width |
+| barHeight | number | 30 | each bar's height |
+| betweenSpace | number | 5 | the distance between two bars |
 
 
 ## License
