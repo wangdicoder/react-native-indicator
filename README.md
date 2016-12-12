@@ -4,6 +4,9 @@
 
 A useful indicator component for React Native
 
+<img src="/screenshot/ss1.gif" width="372" height="666" />
+<img src="/screenshot/ss2.gif" width="372" height="666" />
+
 ## Installation
 
 Make sure that you are in your React Native project directory and run:
