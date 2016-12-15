@@ -6,6 +6,7 @@ A useful indicator component for React Native
 
 <img src="/screenshot/ss1.gif" width="372" height="666" />
 <img src="/screenshot/ss2.gif" width="372" height="666" />
+<img src="/screenshot/ss3.gif" width="372" height="666" />
 
 ## Installation
 
@@ -41,6 +42,7 @@ Here is currently available types:
 - LinesLoader
 - MusicBarLoader
 - EatBeanLoader
+- DoubleCircleLoader
 
 ```
 render(){
@@ -59,8 +61,9 @@ render(){
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| size | number | 10 | circle's size |
+| size | number | 30 | circle's size |
 | color | string | '#1e90ff' | the indicator's color |
+| frequency | number | 500 | scale's frequency |
 
 
 ##### DotsLoader
@@ -144,6 +147,14 @@ render(){
 | ---- | ---- | ---- | ---- |
 | color | string | '#1e90ff' | the indicator's color |
 | size | number | 30 | the indicator's size |
+
+
+##### DoubleCircleLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 30 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
 
 
 ## License

@@ -13,6 +13,7 @@ import Breathing from './lib/loader/BreathingLoader';
 import Lines from './lib/loader/LinesLoader';
 import Music from './lib/loader/MusicLoader';
 import EatBean from './lib/loader/EatBeanLoader';
+import DoubleCircle from './lib/loader/DoubleCircleLoader';
 
 export const PulseLoader = Pulse;
 export const DotsLoader  = Dots;
@@ -24,3 +25,4 @@ export const BreathingLoader = Breathing;
 export const LinesLoader = Lines;
 export const MusicBarLoader = Music;
 export const EatBeanLoader = EatBean;
+export const DoubleCircleLoader = DoubleCircle;
