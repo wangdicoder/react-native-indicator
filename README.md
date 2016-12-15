@@ -1,6 +1,6 @@
 # react-native-indicator
 
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-native-indicator) ![react-native](https://img.shields.io/badge/react--native-0.38-brightgreen.svg) [![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg)](https://github.com/wangdicoder/react-native-indicator) [![npm](https://img.shields.io/npm/v/npm.svg)](https://img.shields.io/badge/npm-3.10.9-red.svg) [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-indicator)
+[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-native-indicator) ![react-native](https://img.shields.io/badge/react--native-0.38-brightgreen.svg) [![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg)](https://github.com/wangdicoder/react-native-indicator) [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-indicator)
 
 A useful indicator component for React Native
 
