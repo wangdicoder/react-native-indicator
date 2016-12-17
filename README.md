@@ -44,6 +44,7 @@ Here is currently available types:
 - EatBeanLoader
 - DoubleCircleLoader
 - RotationCircleLoader
+- RotationHoleLoader
 
 ```
 render(){
@@ -165,6 +166,16 @@ render(){
 | size | number | 30 | circle's size |
 | color | string | '#1e90ff' | the indicator's color |
 | rotationSpeed | number | 800 | rotation speed |
+
+
+##### RotationHoleLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 40 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| rotationSpeed | number | 800 | rotation speed |
+| strokeWidth | number | 8 | circle outline's width |
 
 
 ## License
