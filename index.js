@@ -14,6 +14,7 @@ import Lines from './lib/loader/LinesLoader';
 import Music from './lib/loader/MusicLoader';
 import EatBean from './lib/loader/EatBeanLoader';
 import DoubleCircle from './lib/loader/DoubleCircleLoader';
+import RotationCircle from './lib/loader/RotationCircleLoader';
 
 export const PulseLoader = Pulse;
 export const DotsLoader  = Dots;
@@ -26,3 +27,4 @@ export const LinesLoader = Lines;
 export const MusicBarLoader = Music;
 export const EatBeanLoader = EatBean;
 export const DoubleCircleLoader = DoubleCircle;
+export const RotationCircleLoader = RotationCircle;

@@ -43,6 +43,7 @@ Here is currently available types:
 - MusicBarLoader
 - EatBeanLoader
 - DoubleCircleLoader
+- RotationCircleLoader
 
 ```
 render(){
@@ -155,6 +156,15 @@ render(){
 | ---- | ---- | ---- | ---- |
 | size | number | 30 | circle's size |
 | color | string | '#1e90ff' | the indicator's color |
+
+
+##### RotationCircleLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 30 | circle's size |
+| color | string | '#1e90ff' | the indicator's color |
+| rotationSpeed | number | 800 | rotation speed |
 
 
 ## License
