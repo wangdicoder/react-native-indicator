@@ -64,7 +64,7 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 30 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | frequency | number | 500 | scale's frequency |
 
 
@@ -73,8 +73,8 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 10 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
-| betweenSpace | number | 5 | the distance between two dots |
+| color | string | '#1e90ff' | indicator's color |
+| betweenSpace | number | 5 | distance between two dots |
 
 
 ##### TextLoader
@@ -90,7 +90,7 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 40 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | dotRadius | number | 10 | each dot's size |
 
 
@@ -99,7 +99,7 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 40 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | dotRadius | number | 8 | each dot's size |
 
 
@@ -108,7 +108,7 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 10 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | strokeWidth | number | 3 | outline width |
 | frequency | number | 800 | scale's frequency |
 
@@ -118,7 +118,7 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 10 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | strokeWidth | number | 3 | outline width |
 
 
@@ -126,29 +126,29 @@ render(){
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | barWidth | number | 5 | each bar's width |
 | barHeight | number | 40 | each bar's height |
 | barNumber | number | 5 | the number of bar |
-| betweenSpace | number | 2 | the distance between two bars |
+| betweenSpace | number | 2 | distance between two bars |
 
 
 ##### MusicBarLoader
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 | barWidth | number | 3 | each bar's width |
 | barHeight | number | 30 | each bar's height |
-| betweenSpace | number | 5 | the distance between two bars |
+| betweenSpace | number | 5 | distance between two bars |
 
 
 ##### EatBeanLoader
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| color | string | '#1e90ff' | the indicator's color |
-| size | number | 30 | the indicator's size |
+| color | string | '#1e90ff' | indicator's color |
+| size | number | 30 | indicator's size |
 
 
 ##### DoubleCircleLoader
@@ -156,15 +156,15 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 30 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| color | string | '#1e90ff' | indicator's color |
 
 
 ##### RotationCircleLoader
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| size | number | 30 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| size | number | 30 | indicator's size |
+| color | string | '#1e90ff' | indicator's color |
 | rotationSpeed | number | 800 | rotation speed |
 
 
@@ -172,10 +172,18 @@ render(){
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| size | number | 40 | circle's size |
-| color | string | '#1e90ff' | the indicator's color |
+| size | number | 40 | indicator's size |
+| color | string | '#1e90ff' | indicator's color |
 | rotationSpeed | number | 800 | rotation speed |
 | strokeWidth | number | 8 | circle outline's width |
+
+
+##### CirclesRotationScaleLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 50 | indicator's size |
+| color | string | '#1e90ff' | indicator's color |
 
 
 ## License
