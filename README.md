@@ -32,19 +32,21 @@ import {CirclesLoader, PulseLoader, TextLoader, DotsLoader, ...} from 'react-nat
 
 Here is currently available types: 
 
-- PulseLoader
-- DotsLoader
-- TextLoader
-- BubblesLoader
-- CirclesLoader
-- BreathingLoader
-- RippleLoader
-- LinesLoader
-- MusicBarLoader
-- EatBeanLoader
-- DoubleCircleLoader
-- RotationCircleLoader
-- RotationHoleLoader
+- [PulseLoader](#PulseLoader)
+- [DotsLoader](#DotsLoader)
+- [TextLoader](#TextLoader)
+- [BubblesLoader](#BubblesLoader)
+- [CirclesLoader](#CirclesLoader)
+- [BreathingLoader](#BreathingLoader)
+- [RippleLoader](#RippleLoader)
+- [LinesLoader](#LinesLoader)
+- [MusicBarLoader](#MusicBarLoader)
+- [EatBeanLoader](#EatBeanLoader)
+- [DoubleCircleLoader](#DoubleCircleLoader)
+- [RotationCircleLoader](#RotationCircleLoader)
+- [RotationHoleLoader](#RotationHoleLoader)
+- [CirclesRotationScaleLoader](#CirclesRotationScaleLoader)
+- [NineCubesLoader](#NineCubesLoader)
 
 ```
 render(){
@@ -183,6 +185,14 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 50 | indicator's size |
+| color | string | '#1e90ff' | indicator's color |
+
+
+##### NineCubesLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 20 | each cube's size |
 | color | string | '#1e90ff' | indicator's color |
 
 
