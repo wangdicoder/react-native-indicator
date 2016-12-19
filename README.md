@@ -32,21 +32,21 @@ import {CirclesLoader, PulseLoader, TextLoader, DotsLoader, ...} from 'react-nat
 
 Here is currently available types: 
 
-- [PulseLoader](#PulseLoader)
-- [DotsLoader](#DotsLoader)
-- [TextLoader](#TextLoader)
-- [BubblesLoader](#BubblesLoader)
-- [CirclesLoader](#CirclesLoader)
-- [BreathingLoader](#BreathingLoader)
-- [RippleLoader](#RippleLoader)
-- [LinesLoader](#LinesLoader)
-- [MusicBarLoader](#MusicBarLoader)
-- [EatBeanLoader](#EatBeanLoader)
-- [DoubleCircleLoader](#DoubleCircleLoader)
-- [RotationCircleLoader](#RotationCircleLoader)
-- [RotationHoleLoader](#RotationHoleLoader)
-- [CirclesRotationScaleLoader](#CirclesRotationScaleLoader)
-- [NineCubesLoader](#NineCubesLoader)
+- [PulseLoader](#pulseLoader)
+- [DotsLoader](#dotsLoader)
+- [TextLoader](#textLoader)
+- [BubblesLoader](#bubblesLoader)
+- [CirclesLoader](#circlesLoader)
+- [BreathingLoader](#breathingLoader)
+- [RippleLoader](#rippleLoader)
+- [LinesLoader](#linesLoader)
+- [MusicBarLoader](#musicBarLoader)
+- [EatBeanLoader](#eatBeanLoader)
+- [DoubleCircleLoader](#doubleCircleLoader)
+- [RotationCircleLoader](#rotationCircleLoader)
+- [RotationHoleLoader](#rotationHoleLoader)
+- [CirclesRotationScaleLoader](#circlesRotationScaleLoader)
+- [NineCubesLoader](#nineCubesLoader)
 
 ```
 render(){
