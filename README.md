@@ -69,7 +69,7 @@ render(){
 | ---- | ---- | ---- | ---- |
 | size | number | 30 | circle's size |
 | color | string | '#1e90ff' | indicator's color |
-| frequency | number | 500 | scale's frequency |
+| frequency | number | 1000 | scale's frequency |
 
 
 ##### DotsLoader
