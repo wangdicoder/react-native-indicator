@@ -7,6 +7,7 @@ A useful indicator component for React Native
 <img src="/screenshot/ss1.gif" width="372" height="666" />
 <img src="/screenshot/ss2.gif" width="372" height="666" />
 <img src="/screenshot/ss3.gif" width="372" height="666" />
+<img src="/screenshot/ss4.gif" width="372" height="666" />
 
 ## Installation
 
@@ -47,6 +48,7 @@ Here is currently available types:
 - [RotationHoleLoader](#rotationHoleLoader)
 - [CirclesRotationScaleLoader](#circlesRotationScaleLoader)
 - [NineCubesLoader](#nineCubesLoader)
+- [LineDotsLoader](#lineDotsLoader)
 
 ```
 render(){
@@ -74,17 +76,17 @@ render(){
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
-| size | number | 10 | circle's size |
+| size | number | 10 | dot's size |
 | color | string | '#1e90ff' | indicator's color |
 | betweenSpace | number | 5 | distance between two dots |
 
 
 ##### TextLoader
 
-| prop | type | default | isRequired | description |
-| ---- | ---- | ---- | ---- | ---- |
-| **text** | string | none | **yes** | contents |
-| textStyle | style | inherited | no | text's style |
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| text | string | 'Loading' | contents |
+| textStyle | style | inherited | text's style |
 
 
 ##### BubblesLoader
@@ -195,6 +197,17 @@ render(){
 | size | number | 20 | each cube's size |
 | color | string | '#1e90ff' | indicator's color |
 
+
+##### LineDotsLoader
+
+**warning:** *this indicator will occupy a whole horizontal space automatically, which mean you don't need to set any center props. Just keeping the direction of its parent View is vertical.*
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 10 | dot's size |
+| color | string | '#1e90ff' | indicator's color |
+| dotsNumber | number | 5 | the number of dots |
+| betweenSpace | number | 5 | distance between two dots |
 
 ## License
 
