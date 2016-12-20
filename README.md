@@ -200,7 +200,7 @@ render(){
 
 ##### LineDotsLoader
 
-**warning:** *this indicator will occupy a whole horizontal space automatically, which mean you don't need to set any center props. Just keeping the direction of its parent View is vertical.*
+**warning:** *this indicator will occupy a whole horizontal space automatically, which means you don't need to set any center props. Just keeping the direction of its parent View is vertical.*
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
