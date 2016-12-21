@@ -33,23 +33,22 @@ import {CirclesLoader, PulseLoader, TextLoader, DotsLoader, ...} from 'react-nat
 
 Here is currently available types: 
 
-- [PulseLoader](#pulseLoader)
-- [DotsLoader](#dotsLoader)
-- [TextLoader](#textLoader)
-- [BubblesLoader](#bubblesLoader)
-- [CirclesLoader](#circlesLoader)
-- [BreathingLoader](#breathingLoader)
-- [RippleLoader](#rippleLoader)
-- [LinesLoader](#linesLoader)
-- [MusicBarLoader](#musicBarLoader)
-- [EatBeanLoader](#eatBeanLoader)
-- [DoubleCircleLoader](#doubleCircleLoader)
-- [RotationCircleLoader](#rotationCircleLoader)
-- [RotationHoleLoader](#rotationHoleLoader)
-- [CirclesRotationScaleLoader](#circlesRotationScaleLoader)
-- [NineCubesLoader](#nineCubesLoader)
-- [LineDotsLoader](#lineDotsLoader)
-
+- [PulseLoader](#PulseLoader)
+- [DotsLoader](#DotsLoader)
+- [TextLoader](#TextLoader)
+- [BubblesLoader](#BubblesLoader)
+- [CirclesLoader](#CirclesLoader)
+- [BreathingLoader](#BreathingLoader)
+- [RippleLoader](#RippleLoader)
+- [LinesLoader](#LinesLoader)
+- [MusicBarLoader](#MusicBarLoader)
+- [EatBeanLoader](#EatBeanLoader)
+- [DoubleCircleLoader](#DoubleCircleLoader)
+- [RotationCircleLoader](#RotationCircleLoader)
+- [RotationHoleLoader](#RotationHoleLoader)
+- [CirclesRotationScaleLoader](#CirclesRotationScaleLoader)
+- [NineCubesLoader](#NineCubesLoader)
+- [LineDotsLoader](#LineDotsLoader)
 
 ```
 render(){
@@ -64,7 +63,9 @@ render(){
 
 ## Props
 
-##### PulseLoader <a name="pulseLoader" />
+<a name="PulseLoader" />
+
+##### PulseLoader
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
@@ -72,6 +73,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 | frequency | number | 1000 | scale's frequency |
 
+
+<a name="DotsLoader" />
 
 ##### DotsLoader
 
@@ -82,6 +85,8 @@ render(){
 | betweenSpace | number | 5 | distance between two dots |
 
 
+<a name="TextLoader" />
+
 ##### TextLoader
 
 | prop | type | default | description |
@@ -89,6 +94,8 @@ render(){
 | text | string | 'Loading' | contents |
 | textStyle | style | inherited | text's style |
 
+
+<a name="BubblesLoader" />
 
 ##### BubblesLoader
 
@@ -99,6 +106,8 @@ render(){
 | dotRadius | number | 10 | each dot's size |
 
 
+<a name="CirclesLoader" />
+
 ##### CirclesLoader
 
 | prop | type | default | description |
@@ -107,6 +116,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 | dotRadius | number | 8 | each dot's size |
 
+
+<a name="BreathingLoader" />
 
 ##### BreathingLoader
 
@@ -118,6 +129,8 @@ render(){
 | frequency | number | 800 | scale's frequency |
 
 
+<a name="RippleLoader" />
+
 ##### RippleLoader
 
 | prop | type | default | description |
@@ -126,6 +139,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 | strokeWidth | number | 3 | outline width |
 
+
+<a name="LinesLoader" />
 
 ##### LinesLoader
 
@@ -138,6 +153,8 @@ render(){
 | betweenSpace | number | 2 | distance between two bars |
 
 
+<a name="MusicBarLoader" />
+
 ##### MusicBarLoader
 
 | prop | type | default | description |
@@ -148,6 +165,8 @@ render(){
 | betweenSpace | number | 5 | distance between two bars |
 
 
+<a name="EatBeanLoader" />
+
 ##### EatBeanLoader
 
 | prop | type | default | description |
@@ -155,6 +174,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 | size | number | 30 | indicator's size |
 
+
+<a name="DoubleCircleLoader" />
 
 ##### DoubleCircleLoader
 
@@ -164,6 +185,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 
 
+<a name="RotationCircleLoader" />
+
 ##### RotationCircleLoader
 
 | prop | type | default | description |
@@ -172,6 +195,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 | rotationSpeed | number | 800 | rotation speed |
 
+
+<a name="RotationHoleLoader" />
 
 ##### RotationHoleLoader
 
@@ -183,6 +208,8 @@ render(){
 | strokeWidth | number | 8 | circle outline's width |
 
 
+<a name="CirclesRotationScaleLoader" />
+
 ##### CirclesRotationScaleLoader
 
 | prop | type | default | description |
@@ -191,6 +218,8 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 
 
+<a name="NineCubesLoader" />
+
 ##### NineCubesLoader
 
 | prop | type | default | description |
@@ -198,6 +227,8 @@ render(){
 | size | number | 20 | each cube's size |
 | color | string | '#1e90ff' | indicator's color |
 
+
+<a name="LineDotsLoader" />
 
 ##### LineDotsLoader
 
