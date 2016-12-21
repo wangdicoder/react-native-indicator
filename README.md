@@ -50,6 +50,8 @@ Here is currently available types:
 - [NineCubesLoader](#nineCubesLoader)
 - [LineDotsLoader](#lineDotsLoader)
 
+[toc]
+
 ```
 render(){
     return(
