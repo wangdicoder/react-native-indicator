@@ -50,7 +50,6 @@ Here is currently available types:
 - [NineCubesLoader](#nineCubesLoader)
 - [LineDotsLoader](#lineDotsLoader)
 
-[TOC]
 
 ```
 render(){
@@ -65,7 +64,7 @@ render(){
 
 ## Props
 
-##### PulseLoader
+##### PulseLoader <a name="pulseLoader" />
 
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
