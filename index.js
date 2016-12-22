@@ -19,6 +19,7 @@ import RotationHole from './lib/loader/RotationHoleLoader';
 import CirclesRotationScale from './lib/loader/CirclesRotationScaleLoader';
 //import Square from './lib/loader/SquareLoader';
 import NineCubes from './lib/loader/NineCubesLoader';
+import LineDots from './lib/loader/LineDotsLoader';
 
 export const PulseLoader = Pulse;
 export const DotsLoader  = Dots;
@@ -36,3 +37,4 @@ export const RotationHoleLoader = RotationHole;
 export const CirclesRotationScaleLoader = CirclesRotationScale;
 //export const SquareLoader = Square;
 export const NineCubesLoader = NineCubes;
+export const LineDotsLoader = LineDots;
