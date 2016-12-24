@@ -49,6 +49,7 @@ Here is currently available types:
 - [CirclesRotationScaleLoader](#CirclesRotationScaleLoader)
 - [NineCubesLoader](#NineCubesLoader)
 - [LineDotsLoader](#LineDotsLoader)
+- [ColorDotsLoader](#ColorDotsLoader)
 
 ```
 render(){
@@ -240,6 +241,19 @@ render(){
 | color | string | '#1e90ff' | indicator's color |
 | dotsNumber | number | 5 | the number of dots |
 | betweenSpace | number | 5 | distance between two dots |
+
+
+<a name="ColorDotsLoader" />
+
+##### ColorDotsLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 15 | each cube's size |
+| betweenSpace | number | 7 | distance between two dots |
+| color1 | string | '#ff4500'(red) | 1st color |
+| color2 | string | '#ffd700'(yellow) | 2nd color |
+| color3 | string | '#9acd32'(green) | 3rd color |
 
 ## License
 
