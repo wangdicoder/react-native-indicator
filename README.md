@@ -22,7 +22,7 @@ It works, have fun!
 
 ### iOS
 
-Add ```ART.xcodeproj``` from ```node_modules/react-native/React/Libraries/ART``` to your Libraries then link ```libART.a```. To see more details about **Linking Libraries**, jump to [this](https://facebook.github.io/react-native/docs/linking-libraries-ios.html).
+Add ```ART.xcodeproj``` from ```node_modules/react-native/Libraries/ART``` to your Libraries then link ```libART.a```. To see more details about **Linking Libraries**, jump to [this](https://facebook.github.io/react-native/docs/linking-libraries-ios.html).
 
 ## Usage
 
