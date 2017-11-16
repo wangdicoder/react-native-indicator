@@ -1,6 +1,6 @@
 {
   "name": "react-native-indicator",
-  "version": "0.6.8",
+  "version": "0.7.0",
   "description": "React Native Indicator Component",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/wangdicoder/react-native-indicator/issues"
   },
-  "homepage": "https://github.com/wangdicoder/react-native-indicator#readme"
+  "homepage": "https://github.com/wangdicoder/react-native-indicator#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  }
 }
