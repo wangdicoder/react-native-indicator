@@ -4,6 +4,7 @@
 'use strict';
 
 import Dots from './lib/loader/DotsLoader';
+import OpacityDots from './lib/loader/OpacityDotsLoader';
 import Pulse from './lib/loader/PulseLoader';
 import Text from './lib/loader/TextLoader';
 import Bubbles from './lib/loader/BubblesLoader';
@@ -24,6 +25,7 @@ import ColorDots from './lib/loader/ColorDotsLoader';
 
 export const PulseLoader = Pulse;
 export const DotsLoader  = Dots;
+export const OpacityDotsLoader = OpacityDots;
 export const TextLoader = Text;
 export const BubblesLoader = Bubbles;
 export const CirclesLoader = Circles;
