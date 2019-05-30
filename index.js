@@ -1,8 +1,3 @@
-/**
- * Created by wangdi on 8/12/16.
- */
-'use strict';
-
 import Dots from './lib/loader/DotsLoader';
 import Pulse from './lib/loader/PulseLoader';
 import Text from './lib/loader/TextLoader';
