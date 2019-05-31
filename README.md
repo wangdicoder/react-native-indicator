@@ -1,6 +1,6 @@
 # react-native-indicator
 
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/react-native-indicator) ![react-native](https://img.shields.io/badge/react--native-0.38-brightgreen.svg) [![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg)](https://github.com/wangdicoder/react-native-indicator) [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-indicator)
+![npm](https://img.shields.io/npm/dw/react-native-indicator.svg) ![npm](https://img.shields.io/npm/v/react-native-indicator.svg)  [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/react-native-indicator)
 
 A useful indicator component for React Native
 
@@ -50,6 +50,7 @@ Here is currently available types:
 - [NineCubesLoader](#NineCubesLoader)
 - [LineDotsLoader](#LineDotsLoader)
 - [ColorDotsLoader](#ColorDotsLoader)
+- [OpacityDotsLoader](#OpacityDotsLoader)
 
 ```
 render(){
@@ -254,6 +255,15 @@ render(){
 | color1 | string | '#ff4500'(red) | 1st color |
 | color2 | string | '#ffd700'(yellow) | 2nd color |
 | color3 | string | '#9acd32'(green) | 3rd color |
+
+##### OpacityDotsLoader
+
+| prop | type | default | description |
+| ---- | ---- | ---- | ---- |
+| size | number | 10 | dot's size |
+| color | string | '#1e90ff' | indicator's color |
+| betweenSpace | number | 5 | distance between two dots |
+| speed | number | 200 | change speed |
 
 ## License
 

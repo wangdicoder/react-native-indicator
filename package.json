@@ -1,6 +1,6 @@
 {
   "name": "react-native-indicator",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "React Native Indicator Component",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "loader",
     "progress"
   ],
-  "author": "Di Wang",
+  "author": "Di Wang <wangdicoder@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wangdicoder/react-native-indicator/issues"
