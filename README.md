@@ -14,21 +14,23 @@ A useful indicator component for React Native
 Make sure that you are in your React Native project directory and run:
 ```
 $ npm install react-native-indicator --save 
+$ npm install @react-native-community/art --save
 ```
 
-### Android
+For react-native >= 0.60 ReactNativeART should be auto-linked and no additional action is required.
 
-It works, have fun!
+For react-native < 0.60 you need to link ReactNative ART:
+```
+$ react-native link @react-native-community/art
+```
 
-### iOS
-
-Following the [Art module](https://github.com/react-native-community/art) instruction to configure.
+More info, following the [Art module](https://github.com/react-native-community/art) instruction to configure.
 
 ## Usage
 
 Import react-native-indicator as a JavaScript module:
 ```
-import {CirclesLoader, PulseLoader, TextLoader, DotsLoader, ...} from 'react-native-indicator';
+import { CirclesLoader, PulseLoader, TextLoader, DotsLoader, ... } from 'react-native-indicator';
 ```
 
 Here is currently available types: 
@@ -54,12 +56,12 @@ Here is currently available types:
 
 ```
 render(){
-    return(
-        <View>
-            <CirclesLoader />
-            <TextLoader text="Loading" />
-        </View>
-    ); 
+  return(
+    <View>
+      <CirclesLoader />
+      <TextLoader text="Loading" />
+    </View>
+  ); 
 }
 ```
 
@@ -138,6 +140,7 @@ render(){
 | prop | type | default | description |
 | ---- | ---- | ---- | ---- |
 | size | number | 10 | circle's size |
+| frequency | number | 1600 | scale's frequency |
 | color | string | '#1e90ff' | indicator's color |
 | strokeWidth | number | 3 | outline width |
 
