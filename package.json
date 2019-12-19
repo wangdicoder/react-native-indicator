@@ -1,9 +1,10 @@
 {
   "name": "react-native-indicator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React Native Indicator Component",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/prettier --config .prettierrc --write lib/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "homepage": "https://github.com/wangdicoder/react-native-indicator#readme",
   "dependencies": {
     "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
   }
 }

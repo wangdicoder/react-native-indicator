@@ -22,7 +22,7 @@ It works, have fun!
 
 ### iOS
 
-You need to install this module: https://github.com/react-native-community/art
+Following the [Art module](https://github.com/react-native-community/art) instruction to configure.
 
 ## Usage
 
